@@ -16,7 +16,7 @@ matplotlib.rcParams['font.family'] = 'Malgun Gothic'
 matplotlib.rcParams['axes.unicode_minus'] = False
 
 def load_data():
-    df = pd.read_csv("/Users/uvin/Desktop/data/cars.csv")
+    df = pd.read_csv("data/cars.csv")
     return df
 
 def cars_home():
